@@ -1,0 +1,319 @@
+body {
+    overflow-x: hidden;
+}
+/* ----------------------- Top-Header Section ----------------------- */
+.top-dots .para-dots {
+    background-color: #E21E2D;
+    color: white;
+    display: inline-block;
+    padding: 0 14px;
+    transform: translate(0, -9px);
+}
+.top-header .logo-div a img {
+    width: 110px;
+    height: 110px;
+}
+.top-header .login-div a {
+    text-decoration: none;
+}
+.top-header .login-div a:hover > p {
+    text-decoration: underline;
+    text-decoration-style: solid;
+}
+/* ------------------- End - Top-Header Section --------------------- */
+
+
+/* ---------------------- Menus Section ------------------------- */
+.page-area .menus-section .navbar {
+    background-color: rgb(245, 245, 245);
+    width: 82%;
+}
+.menus-section .navbar .navbar-collapse .navbar-nav li a {
+    font-weight: 600;
+    font-size: 16px;
+    color: black;
+    text-transform: uppercase;
+}
+.menus-section .navbar .navbar-collapse .navbar-nav li a:hover {
+    color: rgb(75, 73, 73);
+}
+.page-area .menus-section .cart-div {
+    background-color: rgb(245, 245, 245);
+    width: 18%;
+    margin-left: 2px;
+}
+.page-area .menus-section .cart-div .cart-btn .cart-card {
+    position: relative;
+}
+.page-area .menus-section .cart-div .cart-btn .cart-card img {
+    width: 45px;
+    height: 45px;
+}
+.page-area .menus-section .cart-div .cart-btn .cart-card .text-div {
+    position: absolute;
+    /* background-color: rgba(8, 8, 255, 0.37); */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.menus-section .cart-div .cart-btn .cart-price::before {
+    content: 'PKR';
+    margin-right: 2px;
+    margin-left: 2px;
+}
+.menus-section .cart-div .cart-btn .cart-price {
+    font-weight: bold;
+}
+.menus-section .cart-div .cart-btn:hover {
+    cursor: pointer;
+}
+.menus-section .cart-div .cart-btn:hover > .cart-price{
+    text-decoration: underline;
+}
+/* ------------------ End - Menus Section ----------------------- */
+
+
+/* ---------------------- Slider Section ------------------------- */
+.slider-section .silk-slider .item img {
+    width: 100%!important;
+    height: 380px;
+}
+.slick-track {
+    margin: 0px!important;
+}
+.slick-dots li {
+    margin: 0px!important;
+}
+.slick-dots li.slick-active > button::before {
+    font-size: 16px!important;
+    color: #696969!important;
+}
+.slick-dots li button::before {
+    font-size: 10px!important;
+    color: #696969!important;
+    opacity: 100%!important;
+}
+/* ------------------ End - Slider Section ----------------------- */
+
+
+/* ---------------------- Deals Section / products-card-row ------------------------- */
+.deals-section {
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+.products-card-row {
+    display: flex!important;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.products-card-row .my-col .deal-card {
+    height: 100%!important;
+}
+.products-card-row .my-col .deal-card .card-body {
+    position: relative;
+    padding-bottom: 40px!important;
+}
+.products-card-row .my-col .deal-card:hover {
+    cursor: pointer;
+    border: 1px solid rgb(182, 181, 181);
+    border: 1px solid rgb(182, 181, 181);
+    box-shadow: 1px 1px 2px gray;
+}
+.products-card-row .my-col .deal-card .image-card:hover .card-img-overlay {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.products-card-row .my-col .deal-card .card-body .deal-title:hover {
+    text-decoration: underline;
+}
+.products-card-row .my-col .deal-card .card-body .deal-details {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* number of lines to show */
+    -webkit-box-orient: vertical;
+}
+.products-card-row .my-col .deal-card .card-body .add-to-cart-btn {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+.products-card-row .my-col .deal-card .card-body .add-to-cart-btn .price-div .deal-price::before {
+    content: 'PKR';
+    margin-right: 5px;
+}
+/* ------------------ End - Deals Section / products-card-row ----------------------- */
+
+
+/* ---------------------- Footer Section ------------------------- */
+.footer-section .top-footer {
+    position: relative;
+    border-top: 1px solid rgb(223, 222, 222);
+    margin-top: 20px;
+    padding-top: 50px;
+} 
+.footer-section .top-footer .back-to-top-btn {
+    position: absolute;
+    font-size: 13px;
+    border: 1px solid rgb(223, 222, 222);
+    padding: 4px;
+    cursor: pointer;
+    right: 0;
+    top: 50px;
+}
+.footer-section .top-footer .back-to-top-btn:hover > .txt {
+    text-decoration: underline;
+}
+.footer-section .mid-footer {
+    margin-top: 60px;
+}
+.footer-section .mid-footer .foot-row .my-col{
+    width: 20%;
+}
+.footer-section .mid-footer .foot-row .my-col .foot-list {
+    font-size: 14px;
+    list-style: none;
+    padding: 0;
+    line-height: 2em;
+}
+.footer-section .mid-footer .foot-row .my-col .foot-list li a {
+    color: rgb(95, 95, 95);
+}
+.footer-section .mid-footer .foot-row .col-apps img {
+    height: 50px;
+}
+.footer-section .bottom-footer {
+    margin-top: 20px;
+}
+.footer-section .bottom-footer .copy-right-div p a {
+    text-decoration: underline;
+    color: #E21E2D;
+}
+.bottom-dots .para-dots {
+    background-color: #E21E2D;
+    color: white;
+    display: inline-block;
+    padding: 0 14px;
+    transform: translate(0, 9px);
+}
+/* ------------------ End - Footer Section ----------------------- */
+
+
+/* ---------------------- Side Bucket Section ------------------------- */
+.back-drop-screen {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.side-bucket-section {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    z-index: 999;
+}
+.top-price {
+    background-color: rgb(27, 27, 27);
+}
+.top-price .cart-card {
+    position: relative;
+}
+.top-price .cart-card img {
+    width: 45px;
+    height: 45px;
+}
+.top-price .cart-card .text-div {
+    position: absolute;
+    /* background-color: rgba(8, 8, 255, 0.37); */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.top-price .total-price::before {
+    content: 'PKR';
+    margin-right: 2px;
+}
+
+.edit-location {
+    border: 1px solid #E21E2D;
+}
+.edit-location .location-div .location-area {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1; /* number of lines to show */
+    -webkit-box-orient: vertical; 
+}
+.edit-location .location-div .location-edit {
+    color: #E21E2D;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.items-list-div {
+    max-height: 280px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.item-price::before {
+    content: 'PKR';
+    margin-right: 2px;
+}
+.remove-item-btn {
+    color: white;
+    font-size: 13px;
+    height: 18px;
+    width: 22px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+
+.item-card .current-item-count-price .current-item-count::after {
+    content: 'x';
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.item-card .current-item-count-price .current-item-price::before {
+    content: 'PKR';
+    margin-left: 1px;
+    margin-right: 2px;
+}
+.softdrint-info-div .drint-info {
+    color: gray;
+}
+
+.bucket-buttons {
+    border-top: 1px solid rgb(218, 217, 217);
+    margin-top: 20px;
+}
+.bucket-buttons .total-price::before {
+    content: 'PKR';
+    margin-right: 2px;
+}
+.bucket-buttons .clear-bucket-btn {
+    border: 1px solid rgb(219, 218, 218);
+    padding: 8px 0px;   
+}
+.bucket-buttons .clear-bucket-btn:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.bucket-buttons .checkout-bucket-btn {
+    padding: 8px 0px;   
+}
+.bucket-buttons .checkout-bucket-btn:hover {
+    cursor: pointer;
+    background-color: #ca0414;
+}
+/* ------------------ End - Side Bucket Section ----------------------- */
+
+
