@@ -1,0 +1,120 @@
+
+.navbar_section {
+    background-color: rgb(245, 245, 245);
+}
+.navbar_section .navbar_area {
+    width: 82%;
+}
+.navbar_section .cart_area {
+    width: 18%;
+}
+.navbar_section .nav_bar {
+    background-color: rgb(245, 245, 245);
+}
+.navbar_area .link {
+    color: #000000;
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.25s;
+}
+.navbar_area .link:hover { 
+    color: #666;
+    /* text-decoration: underline; */
+}
+.nav_bar .navbar-collapse .navbar-nav {
+    flex-wrap: wrap;
+}
+.navbar_section .nav_bar {
+    position: inherit;
+}
+.navbar_section .nav_cross_link {
+    display: none;
+}
+.navbar_section .nav_cross_link button {
+    outline: none;
+    border: none;
+    padding: 1px;
+    font-size: 20px;
+    color: #dc3545;
+    border-radius: 50%;
+    background-color: transparent;
+    transition: 0.5s;
+}
+.navbar_section .nav_cross_link button:hover { 
+    color: #ff0000;
+}
+.navbar_area .navlink { 
+    outline: none;
+}
+
+.cart_area {
+    background-color: rgb(245, 245, 245);
+    width: 18%;
+    margin-left: 2px;
+}
+.cart_area .cart-btn .cart-card {
+    position: relative;
+}
+.cart_area .cart-btn .cart-card img {
+    width: 45px;
+    height: 45px;
+}
+.cart_area .cart-btn .cart-card .text-div {
+    position: absolute;
+    /* background-color: rgba(8, 8, 255, 0.37); */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.cart_area .cart-btn .cart-price::before {
+    content: 'PKR';
+    margin-right: 2px;
+    margin-left: 2px;
+}
+.cart_area .cart-btn .cart-price {
+    font-weight: bold;
+    color: #E21E2D;
+}
+.cart_area .cart-btn:hover {
+    cursor: pointer;
+}
+.cart_area .cart-btn:hover > .cart-price{
+    text-decoration: underline;
+}
+
+.navbar_section .mobi_logo {
+    display: none;
+}
+
+@media (min-width: 320px) and (max-width: 991.98px) {
+    .navbar_section .mobi_logo {
+        display: block;
+    }
+    /* .nav_bar .navbar-collapse {
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        width: 300px;
+        background-color: rgb(165, 163, 42);
+    }
+    .nav_bar .navbar-collapse .navbar-nav {
+        padding: 5px 20px;
+    } */
+    .navbar_area .navlink {
+        outline: none;
+    }
+    .navbar_area .navlink .link { 
+        width: 100%;
+    }
+    .navbar_area .link:hover {
+        color: red;
+        text-decoration: underline;
+    }
+    .navbar_section .nav_cross_link {
+        display: block;
+        margin-left: auto;
+    }
+}

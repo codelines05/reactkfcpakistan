@@ -1,0 +1,43 @@
+.top-header .login-div .my-location {
+  font-size: 14px;
+  font-weight: 600;
+}
+.top-header .login-div .my-location:last-child { 
+    margin-left: 10px;
+}
+.top-header .link  {
+    transition: 10s;
+    margin-left: 2px;
+    position: relative;
+}
+.top-header .link p { 
+    color: black;
+}
+.top-header .link:hover:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -1px;
+  height: 1.2px;
+  background-color: black;
+}
+
+/* Medium devices (tablets, less than 992px)*/
+@media (min-width: 320px) and (max-width: 991.98px) { 
+  .tab-large-show {
+    display: block !important;
+  }
+  .tab-large-hide {
+    display: none !important;
+  }
+  /* ------- */
+  .top-header {
+    justify-content: center !important;
+    margin-top: 5px;
+  }
+  .top-header .logo-div {
+    display: none;
+  }
+}
+

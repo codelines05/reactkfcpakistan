@@ -1,0 +1,105 @@
+
+
+/* .footer-section {
+    border-top: 1px solid rgb(223, 222, 222);
+} */
+.footer-section .copright-div p:nth-child(1) {
+    font-size: 14px;
+    color: gray;
+}
+.footer-section .copright-div p:nth-child(2) {
+    font-size: 13px;
+}
+.footer-section .copright-div p:nth-child(2) span {
+    color: #E21E2D;
+    text-decoration: underline;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.footer-section .copright-div p:nth-child(2) span:hover {
+    color: #8f010d;
+}
+
+.footer-center h6 {
+    color: #333333;
+    font-weight: 700;
+    font-size: 16px;
+}
+.footer-center .footer_menus {
+    list-style-type: none;
+    padding: 0;
+}
+.footer-center .footer_menus li a { 
+    text-decoration: none;
+    color: #333333;
+    font-size: 14px;
+    transform: 0.25s;
+}
+.footer-center .footer_menus li a:hover { 
+    text-decoration: underline;
+}
+.footer-center .footer_menus .thick_menu { 
+    color: #333333 !important;
+    font-weight: 700 !important;
+}
+.footer-center .footer_menus .thick_menu:hover { 
+    text-decoration: none;
+}
+.footer-center .footer_menus li img { 
+    width: 150px;
+}
+.footer-center .footer_menus li img:hover { 
+    cursor: pointer;
+}
+.footer-center {
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-center .footer_links {
+    width: 20%;
+}
+
+.top-footer {
+    margin-top: 20px;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    border-top: 1px solid #e7e6e6;
+}
+.top-footer .back-to-top-btn {
+    border: 1px solid #cecece;
+    padding: 3px;
+    border-radius: 1px;
+}
+.top-footer .back-to-top-btn:hover {
+    cursor: pointer;
+}
+.top-footer .back-to-top-btn span {
+    color: #E21E2D;
+    font-size: 12px;
+}
+.top-footer .back-to-top-btn:hover > span:nth-child(2) {
+    text-decoration: underline;
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .footer-center .footer_links {
+        width: 25%;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px) { 
+    .footer-center .footer_links {
+        width: 50%;
+    }
+}
+@media (min-width: 320px) and (max-width: 575.98px) { 
+    .footer-center .footer_links {
+        width: 100%;
+    }
+    /* .footer-center h6 {
+        font-size: 18px;
+    }
+    .footer-center .footer_menus li a { 
+        font-size: 16px;
+    } */
+}

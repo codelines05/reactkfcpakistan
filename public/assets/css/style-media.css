@@ -1,0 +1,66 @@
+.container-fluid-double {
+  margin-left: 2.25%;
+  margin-right: 2.25%;
+}
+
+.desk-show {
+  display: block !important;
+}
+.desk-hide {
+  display: none !important;
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+  .mb-show {
+    display: block !important;
+  }
+  .mb-hide {
+    display: none !important;
+  }
+}
+
+/* Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {
+  .tab-small-show {
+    display: block !important;
+  }
+  .tab-small-hide {
+    display: none !important;
+  }
+
+  /* ---------------------- Slider Section ------------------------- */
+  .slider-section .silk-slider .item img {
+    height: 600px!important;
+  }
+  /* ------------------ End - Slider Section ----------------------- */
+
+  /* ---------------------- Footer Section ------------------------- */
+  .footer-section .mid-footer .foot-row {
+    text-align: center;
+  }
+  .footer-section .mid-footer .foot-row .col-apps {
+    width: 100%!important;
+  }
+  /* ------------------ End - Footer Section ----------------------- */
+}
+
+/* Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {
+  .tab-large-show {
+    display: block !important;
+  }
+  .tab-large-hide {
+    display: none !important;
+  }
+
+  /* ---------------------- Slider Section ------------------------- */
+  .slider-section .silk-slider .item img {
+    height: 400px;
+  }
+  /* ------------------ End - Slider Section ----------------------- */
+}
+
+/* Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) {
+}

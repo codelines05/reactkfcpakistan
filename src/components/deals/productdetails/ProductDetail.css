@@ -1,0 +1,85 @@
+
+.product-details-section {
+    margin-top: 20px;
+    margin-bottom: 60px;
+} 
+.product-details-section .breadcrumb {
+    font-weight: 600;
+    font-size: 14px;
+}
+.product-details-section .breadcrumb .breadcrumb-item {
+    padding-left: 3px;
+}
+.product-details-section .breadcrumb .breadcrumb-item::before {
+    padding-right: 3px;
+}
+.product-details-section .breadcrumb .breadcrumb-item a {
+    text-decoration: none;
+    color: #333333;
+    transition: 0.25s;
+}
+.product-details-section .breadcrumb .breadcrumb-item a:hover {
+    text-decoration: underline;
+}
+.product-details-section .prod_title {
+    font-weight: 700;
+}
+.product-details-section .prod_description {
+    font-size: 13px;
+}
+
+.product-details-section .accordion .accordion-item {
+    border-radius: 0;
+}
+.product-details-section .accordion .accordion-item h2 .accordion-button {
+    outline: none;
+    box-shadow: none;
+    color: #444;
+    font-size: 14px;
+}
+.product-details-section .accordion-button:not(.collapsed) { 
+    background-color: #FFFFFF;
+}
+.product-details-section .selected_drink {
+    position: absolute;
+    right: 0;
+    padding-right: 3rem;
+    font-size: 13px;
+    color: #666666;
+}
+
+.detail-price-box {
+    margin-top: 25px;
+}
+.detail-price-box h4 {
+    font-weight: 700;
+}
+.detail-price-box h4::before {
+ content: 'PKR';
+ margin-right: 5px;
+}
+.detail-price-box .price-bucket .btn {
+    font-weight: 600;
+    padding: 10px 20px;
+}
+.detail-price-box .price-bucket .btn:nth-child(1):hover, .detail-price-box .price-bucket .btn:nth-child(3):hover {
+    background-color: #E21E2D;
+}
+.detail-price-box .price-bucket .btn {
+    border-color: #E21E2D;
+    font-weight: 700;
+}
+.detail-price-box .price-bucket p {
+    border-color: #E21E2D;
+    color: #E21E2D;
+    cursor: default;
+}
+.detail-price-box .price-bucket .btn_add_bucket {
+    background-color: #E21E2D;
+    color: #FFF;
+}
+.detail-price-box .btn_add_bucket:hover {
+    background-color: #ad0412;
+}
+
+
