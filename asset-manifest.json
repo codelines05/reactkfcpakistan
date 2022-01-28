@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/reactkfcpakistan/static/css/main.5434a893.css",
-    "main.js": "/reactkfcpakistan/static/js/main.e10b48a3.js",
+    "main.js": "/reactkfcpakistan/static/js/main.498bb523.js",
     "static/js/787.12c0f0db.chunk.js": "/reactkfcpakistan/static/js/787.12c0f0db.chunk.js",
     "static/media/slick.svg": "/reactkfcpakistan/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/reactkfcpakistan/static/media/slick.a4e97f5a2a64f0ab1323.eot",
@@ -9,11 +9,11 @@
     "static/media/slick.woff": "/reactkfcpakistan/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/reactkfcpakistan/index.html",
     "main.5434a893.css.map": "/reactkfcpakistan/static/css/main.5434a893.css.map",
-    "main.e10b48a3.js.map": "/reactkfcpakistan/static/js/main.e10b48a3.js.map",
+    "main.498bb523.js.map": "/reactkfcpakistan/static/js/main.498bb523.js.map",
     "787.12c0f0db.chunk.js.map": "/reactkfcpakistan/static/js/787.12c0f0db.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5434a893.css",
-    "static/js/main.e10b48a3.js"
+    "static/js/main.498bb523.js"
   ]
 }
