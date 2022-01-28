@@ -47,7 +47,7 @@ const Menus = () => {
             <Container>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Link className="mx-auto mobi_logo" to="/">
-                <img src="/assets/img/kfc.svg" alt="kfc.svg" />
+                <img src={process.env.PUBLIC_URL + "/assets/img/kfc.svg"} alt="kfc.svg" />
               </Link>
               <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="me-auto">
